@@ -7,9 +7,9 @@ import zipkin.server.EnableZipkinServer;
 
 @SpringBootApplication
 @EnableZipkinServer
-public class EsmZipkinServerApplication {
+public class ESMZipkinServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EsmZipkinServerApplication.class, args);
+		SpringApplication.run(ESMZipkinServerApplication.class, args);
 	}
 }
