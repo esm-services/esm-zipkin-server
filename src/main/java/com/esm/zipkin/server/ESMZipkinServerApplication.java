@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import zipkin.server.EnableZipkinServer;
 
-@SpringBootApplication
 @EnableZipkinServer
+@SpringBootApplication
 public class ESMZipkinServerApplication {
 
 	public static void main(String[] args) {

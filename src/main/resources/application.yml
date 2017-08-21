@@ -1,8 +1,9 @@
 server:
   port: 7777
+  
 spring:
   profiles:
     active:
     - dev
   application:
-    name: zipkinSserver
+    name: zipkin-server
