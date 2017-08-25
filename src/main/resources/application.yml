@@ -7,3 +7,14 @@ spring:
     - prod
   application:
     name: zipkin-server
+    
+logging:
+  level:
+    root: INFO 
+    org.springframework.web: INFO
+    org.springframework.cloud.sleuth: INFO
+    org.springframework.security: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file: /logs/zipkin-server/zipkin-server.log
